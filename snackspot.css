@@ -1,0 +1,335 @@
+@import url('https://fonts.googleapis.com/css?family=Big+Shoulders+Text:100, 300, 400, 500, 600, 700, 800, 900&display=swap') ;
+
+
+.nav-flex-row {
+display : flex;
+flex-direction : row;
+justify-content : center;
+position : absolute;
+z-index : 100;
+left : 0;
+width : 100%;
+padding : 0;
+}
+.nav-flex-row li {
+text-decoration : none;
+list-style-type : none;
+padding : 20px 15px;
+}
+.nav-flex-row li a {
+font-family : 'Big Shoulders Text', cursive;
+color : #000;
+font-size : 1.5em;
+text-transform : uppercase;
+font-weight : 300;
+}
+.nav-flex-row li a:hover {
+background : #E7E7E7;
+}
+.section-intro {
+height : 820px;
+background-image : url(./IMAGES/Property\ 1=Variant10.jpg);
+background-size : cover;
+display : flex;
+flex-direction : column;
+justify-content : center;
+align-items : center;
+}
+.section-intro h1 {
+text-align : center;
+color : #000;
+font-size : 4em;
+font-weight : 700;
+}
+.section-intro header {
+display : flex;
+flex-direction : flex;
+justify-content : center;
+align-items : center;
+}
+
+
+
+.navbar-brand,
+.navbar-nav .nav-link {
+    position: relative;
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar-brand::after,
+.navbar-nav .nav-link::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #fff;
+    transition: width 0.3s;
+}
+
+.navbar-brand:hover::after,
+.navbar-nav .nav-link:hover::after {
+    width: 100%;
+}
+
+.price {
+    display: flex;
+    align-items: center;
+}
+
+.price i {
+    margin-left: 5px;
+}
+
+.menu {
+    padding: 100px 11% 100px;
+}
+
+.menu h3{
+    text-align: center;
+    color: #37bce5;
+}
+
+.menu h2{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+}
+
+.menu h2 i{
+    color: #e53937;
+}
+
+.menu h6{
+    font-size: 16px;
+}
+
+.rating i{
+    color: orange;
+    font-size: 13px;
+}
+
+.menu p{
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+
+.menu p i{
+        color: #e53937;
+        cursor: pointer;
+    }
+
+
+
+.contact {
+    padding: 100px 11% 100px;
+}
+
+.contact .col-md-5{
+    background: #e53937;
+    border-radius: 10px;
+    color: white;
+}
+.contact i span{
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+
+#footer {
+    background-color: #1d1717;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.f-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.f-logo {
+    flex: 1;
+    text-align: left;
+}
+
+.f-logo img {
+    max-width: 100px;
+}
+
+.fa-brands {
+    color: rgb(230, 201, 37);
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.c-content {
+    margin-top: 20px;
+}
+
+.f-content p {
+    margin-right: 380px;
+}
+
+.navbar-brand {
+    margin-right: 220px;
+}
+
+
+.opening-time {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(54, 15, 99, 0.1);
+}
+
+.opening-time .section-heading {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.opening-time .text-muted {
+    font-size: 16px;
+    color: #666;
+}
+
+.opening-time .text-muted span {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.opening-time .text-muted span:last-child {
+    margin-bottom: 0;
+}
+
+.opening-time p {
+    font-size: 14px;
+    color: #888;
+}
+
+
+
+.link-to-book-wrapper {
+    flex : 1;
+    }
+    .about-section {
+    display : flex;
+    align-items : center;
+    background-color : #f3f3f3c0;
+    padding : 50px 30px;
+    }
+    .link-to-book {
+    color : #ffffff;
+    display : block;
+    border : #ffffff solid 2px;
+    padding : 5px 10px;
+    }
+    a.link-to-book:hover {
+    background-color : #ffffff;
+    color : #95999e;
+    text-decoration : none;
+    }
+    .about-section p, .about-section h3 {
+    text-align : center;
+    width : 60%;
+    margin : auto;
+    font-family : 'Big Shoulders Text', cursive;
+    font-size : 1.8em;
+    text-transform : uppercase;
+    }
+    .carousel-inner {
+    height : 700px;
+    }
+    .row-flex {
+    display : flex;
+    flex-direction : row;
+    }
+    .flex-column-form {
+    display : flex;
+    flex-direction : column;
+    flex : 1;
+    margin : 30px 20px;
+    }
+    .btn.btn-primary {
+    font-family : 'Big Shoulders Text', cursive;
+    color : #ffffff;
+    background-color : #95999e;
+    text-transform : uppercase;
+    font-size : 16px;
+    padding : 5px 10px;
+    letter-spacing : 2px;
+    border : 0;
+    }
+    .btn.btn-primary:hover {
+    background-color : #747474;
+    }
+    .opening-time, .contact-address {
+    flex : 1;
+    margin : 30px 20px;
+    font-size : 1.2em;
+    }
+    .form-group p {
+    font-size : 1.2em;
+    }
+    .opening-time p span, .contact-address p span {
+    display : block;
+    }
+    @media (min-width: 577px) and (max-width: 800px) {
+    .section-intro {
+    height : 500px;
+    }
+    .about-section p, .about-section h3 {
+    font-size : 20px;
+    }
+    .carousel-inner {
+    height : auto;
+    }
+    .row-flex {
+    display : flex;
+    flex-direction : column;
+    }
+    }
+    @media screen and (max-width: 576px) {
+    .section-intro {
+    height : 300px;
+    }
+    .about-section {
+    padding : 30px;
+    }
+    .section-intro h1 {
+    font-size : 2em;
+    }
+    .about-section p, .about-section h3 {
+    font-size : 15px;
+    }
+    .carousel-inner {
+    height : auto;
+    }
+    .row-flex {
+    display : flex;
+    flex-direction : column;
+    }
+    .row-flex h3 {
+    font-size : 25px;
+    text-align : center;
+    }
+    .form-group p {
+    font-size : 15px;
+    }
+    .opening-time p span, .contact-address p span {
+    font-size : 15px;
+    text-align : center;
+    }
+    }
+    .carousel-item img {
+    background-repeat : no-repeat;
+    background-size : cover;
+    }
+    
+    
+    
